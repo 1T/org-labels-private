@@ -4,7 +4,7 @@ a Node.JS application to apply labels from the `style_guide` repo to all of the 
 
 ## Apply Labels JSON
 
-`-d` destructive flag: delete any labels in a repo that are not currently in the JSON file
+`-d` destructive flag: if there are any labels in the repo not in the JSON file, they will be removed
 
 ```
 npm install
