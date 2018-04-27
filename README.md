@@ -1,5 +1,12 @@
 ## org-labels-private
 
-forked from [repo-utils/org-labels](https://github.com/repo-utils/org-labels)
+a Node.JS application to apply labels from the `style_guide` repo to all of the repos in the organization.
 
-Works with private organizations and repos
+## Apply Labels JSON
+
+`-d` destructive flag: delete any labels in a repo that are not currently in the JSON file
+
+```
+npm install
+node bin/org-labels standardize -d 1T 1T/style_guide
+```
